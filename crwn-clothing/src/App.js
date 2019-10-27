@@ -29,8 +29,6 @@ class App extends React.Component{
               ...snapShot.data()
             }
           });
-
-          console.log(this.state);
         })
       }
       else{
@@ -50,7 +48,7 @@ class App extends React.Component{
         <Switch>
             <Route exact path="/" component = {HomePage} />
             <Route path='/shop' component={ShopPage} />
-            <Route path='/signin' component={SignInAndSignUpPage}/>
+            <Route path='/signin' component={SignInAndSignUpPage} />
         </Switch>
       </div>
     )
