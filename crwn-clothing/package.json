@@ -3,34 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "firebase": "^7.2.2",
-    "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-redux": "^7.1.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "redux": "^4.0.4",
-    "redux-logger": "^3.0.6",
-    "reselect": "^4.0.0"
-=======
     "firebase": "6.0.2",
     "node-sass": "4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
+    "react-stripe-checkout": "^2.6.3",
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
-    "reselect": "^4.0.0"
+    "redux-persist": "5.10.0",
+    "reselect": "4.0.0"
   },
   "devDependencies": {
     "react-scripts": "3.0.0"
   },
   "resolutions": {
     "babel-jest": "24.7.1"
->>>>>>> 787fa3298b844ba5195dff7896af23f411711f3e
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,5 +43,7 @@
     ]
   },
   "main": "index.js",
+  "repository": "github.com/jaewonYoon/react-zero",
+  "author": "jaewonYoon <21300492@handong.edu>",
   "license": "MIT"
 }
